@@ -1,0 +1,7 @@
+patch:
+  # 默認輸出西文
+  'switches/@0/reset': 1
+  # 默認輸出簡化字
+  'switches/@2/reset': 1
+  # 使用擴充詞庫
+  "translator/dictionary": luna_pinyin.extended

@@ -1,0 +1,28 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Thu Jun 18 21:14:01 2020"
+  rime_version: 1.5.3
+patch:
+  # 我的輸入方案清單
+  schema_list:
+    # 自然碼雙拼
+    - {schema: double_pinyin}
+    # 朙月拼音，即 Rime 自帶的拼音輸入法
+    - {schema: luna_pinyin}
+    # 五代倉頡輸入法
+    - {schema: cangjie5}
+    # 注音輸入法，台灣人用的
+    - {schema: bopomofo}
+    # 五代倉頡，快打模式
+    - {schema: cangjie5_express}
+    # 五筆輸入法
+    - {schema: stroke}
+  # 呼出 Rime 菜單的快捷鍵
+  "switcher/hotkeys":
+    # 注意：一般鍵盤上是沒有 F13 鍵的，我把我的鍵盤上的 `PrtSc` 鍵映射成了 F13 鍵
+    - F13
+    # 即 [Ctrl+`]，Rime 默認的快捷鍵
+    - "Control+grave"
+  "menu/page_size": 9
